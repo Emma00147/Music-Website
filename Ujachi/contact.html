@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact-me</title>
+	<link rel="stylesheet" type="text/css" href="ujachi.css">
+</head>
+<body>
+  <div class="container">
+      <div class="navbar">
+         <h1><a href="index.html">Ujachi</a></h1>
+         <nav class="navlinks" id="navLinks">
+            <img src="image/closeicon.jpg" class="closeicon" onclick="closeMenu()" id="closeMenu">
+            <ul>
+               <li><a href="news.html">NEWS</a></li>
+               <li><a href="music.html">MUSIC</a></li>
+               <li><a href="video.html">VIDEOS</a></li>
+               <li><a href="live.html">LIVE</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="newletter.html">NEWSLETTER</a></li>
+            </ul>
+         </nav>
+        <img src="image/menuicon.jpg" class="openicon" onclick="showMenu()" id="openMenu">
+      </div>	  
+   </div>
+
+
+
+
+
+
+
+
+
+    <div class="form-container">
+
+      <div class="map-container">
+       <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1268828.6212379817!2d7.146118980228086!3d7.287410716225083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1064e8a1b8b56e7f%3A0x9e4a7e74669a7c57!2sBenue%20State%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1657909776407!5m2!1sen!2sus"
+          width="500"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    	
+      <form action="formhanderler.php" method="post">
+
+    		<p>Get in contact with Ujachi your favorite </p>
+    		<input type="text" name="fname" placeholder="ENTER YOUR FULL NAME">
+    		<input type="email" name="email" placeholder="ENTER YOUR E-MAIL">
+    		<input type="text" name="subject" placeholder="ENTER YOUR SUBJECT">
+    		<textarea rows="7"  name="massage"placeholder="LEAVE A COMMENT HERE"></textarea>
+    		<button class="submit-btn">SUBMIT MASSAGE</button>
+
+      </form>
+    </div>
+
+
+     <section class="foter">
+      <ul class="foter-list">
+         <li><a href="">© 2024 EBEBE-WORLD-WIDE MUSIC ENTERTAINMENT UK LTD.</a></li>
+         <li><a href="">PRIVACY & COOKIE POLICY</a></li>
+         <li><a href="">TERMS & CONDITIONS</a></li>
+         <li><a href="">AI USAGE</a></li>
+      </ul>
+   </section>
+
+
+   <script src="ujachi.js"></script>
+</body>
+</html>
